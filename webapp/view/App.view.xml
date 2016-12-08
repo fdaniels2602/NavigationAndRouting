@@ -1,0 +1,22 @@
+<mvc:View controllerName="sap.ui.demo.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Text
+						id="id"
+						busy="false"
+						busyIndicatorDelay="1000"
+						visible="true"
+						fieldGroupIds="[]"
+						text="Hello World"
+						textDirection="Inherit"
+						wrapping="true"
+						textAlign="Begin"
+						width="">
+					</Text>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
